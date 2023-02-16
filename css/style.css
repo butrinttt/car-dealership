@@ -293,3 +293,141 @@ ul{
     width: 100%;
 }
 }
+
+
+
+
+/*///////////////////////////////////////*/
+
+
+.workers {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.about_desc {
+	text-align: center;
+	font-size: 30px;
+	color: #97D2EC;
+}
+
+.name_worker {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+	color: #537564;
+	font-weight: bold;
+}
+
+.all_worker {
+	font-size: 15px;
+	color: black;
+}
+
+.workers_story {
+	background-color: #FFF;
+	margin-left: 20px;
+}
+
+.workers_story img {
+	width: 100%;
+	height: 200px;
+}
+
+.form2 {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+.form1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.half {
+	width: 100%;
+	height: auto;
+	padding: 0 20px;
+	display: flex;
+}
+
+.half1 {
+	max-width: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+.half2 {
+	max-width: 50%;
+	width: 100%;
+}
+
+#html {
+	padding: unset;
+	width: unset;
+	text-align: unset;
+	margin: 0;
+}
+
+#css {
+	padding: unset;
+	width: unset;
+	text-align: unset;
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+label {
+	color: #FFF;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.map {
+	height: 475px !important;
+}
+
+.submit {
+	width: 75%;
+	margin: 0 auto;
+	outline: none;
+	padding: 20px;
+}
+
+input {
+	padding: 7px;
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	outline: none;
+}
+
+.sendbutton {
+	background-color: forestgreen;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.map {
+	width: 100%;
+	height: 300px;
+}
+
+.footerparagraf {
+	float: left;
+	font-size: 25px;
+}
