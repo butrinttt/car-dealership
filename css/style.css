@@ -1,32 +1,30 @@
-body{
-	background-color: #292D33;
-	margin-left: 80px;
-
-
+body {
+background-color: #292D33;
+padding: 25px;
 }
 
-
-
-p{
+p {
 	color: white;
 	text-align: center;
 	font-size: 60px;
 }
 
-.p1{
+.p1 {
 	color: white;
 	text-align: center;
 	font-size: 20px;
 }
 
 /*car css*/
-.itemshold{
-	max-width: 80%;
+.itemshold {
+	display: flex;
+
+	max-width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-div.gallery{
+div.gallery {
 	margin: 25px;
 	border: 1px solid #ccc;
 	float: left;
@@ -34,45 +32,47 @@ div.gallery{
 	width: 350px;
 	height: 200px;
 	border: none;
-	
+
 
 }
 
 
 
-div.gallery img{
+div.gallery img {
 	width: 100%;
 
 }
 
-div.desc{
+div.desc {
 	padding: 15px;
 	/*text-align: center;*/
 }
 
-#bmw7{
+#bmw7 {
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
-    color: white;
-    background-color: dimgray;
-    
+	color: white;
+	background-color: dimgray;
+
 
 }
-.grayy{
+
+.grayy {
 	background-color: dimgray;
 }
 
 
-.gray{
+.gray {
 	background-color: dimgrey;
 }
-.red{
+
+.red {
 	background-color: red;
 
 }
 
-#bmw3{
+#bmw3 {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
@@ -82,7 +82,7 @@ div.desc{
 
 }
 
-#bmw5{
+#bmw5 {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
@@ -91,22 +91,22 @@ div.desc{
 
 }
 
-#center{
+/* #center {
 	padding-left: 85px;
-}
+} */
 
-.desc{
+.desc {
 	background-color: white;
 	font-size: 20px;
 	text-align: left;
 }
 
 
-span{
+span {
 	font-size: 20px;
 }
 
-button{
+button {
 	background-color: red;
 	padding: 10px 30px;
 	color: white;
@@ -116,25 +116,25 @@ button{
 
 }
 
-nav{
+nav {
 	display: flex;
-	float: right;
+	/* float: right; */
 	justify-content: space-between;
 }
 
-nav a{
-	    color: skyblue;
-		text-decoration: none;
-		padding: 25px 30px;
-		font-size: 20px;
-		font-weight: bold;
+nav a {
+	color: skyblue;
+	text-decoration: none;
+	padding: 25px 30px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
-nav .active{
+nav .active {
 	color: red;
 }
 
-nav a button#buycar{
+nav a button#buycar {
 	font-size: 20px;
 	padding: 10px 35px;
 	margin-left: 12px;
@@ -144,92 +144,99 @@ nav a button#buycar{
 	color: green;
 }
 
-footer nav a{
-   color: skyblue;
-   margin-right: 35px;
-   font-size: 23px;
+footer nav a {
+	color: skyblue;
+	margin-right: 35px;
+	font-size: 23px;
 }
 
 
 .container {
-  position: relative;
-  width: 50%;
+	position: relative;
+	/* width: 50%; */
 }
 
 .bmw7 {
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .bmw3 {
-  display: block;
-  width: auto;
-  height: 100%;
+	display: block;
+	width: auto;
+	height: 100%;
 }
 
 .bmw5 {
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .overlay {
-  position: absolute;
-  top: 400px;
-  left: 0;
-  right: 0;
-  background-color: #ff0000;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+	position: absolute;
+	top: 400px;
+	left: 0;
+	right: 0;
+	background-color: #ff0000;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
 }
 
 .container:hover .overlay {
-  height: 100%;
+	height: 100%;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
 
 }
 
-*{
-	margin:0;
-	padding:0;
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
-.container1{
+
+.container1 {
 	max-width: 1170px;
-	margin:auto;
+	margin: auto;
 }
-.row{
+
+.row {
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
+
+ul {
 	list-style: none;
 }
-.footer{
+
+.footer {
+	display: flex;
 	background-color: #2b2a2b;
-    padding: 70px 70px;
-    margin-right: 10px;
+	padding: 70px 70px;
+	margin-right: 10px;
 
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
 }
-.footer-col h4{
+
+.footer-col h4 {
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
@@ -237,20 +244,23 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
 	content: '';
 	position: absolute;
-	left:0;
+	left: 0;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
 }
-.footer-col ul li:not(:last-child){
+
+.footer-col ul li:not(:last-child) {
 	margin-bottom: 10px;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -260,52 +270,75 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
 	color: #ffffff;
 	padding-left: 8px;
 }
-.footer-col .social-links a{
+.social-links{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-col .social-links a {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+
+.footer-col .social-links a:hover {
 	color: #24262b;
 	background-color: #ffffff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
 }
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
 }
 
 
 
 
 /*///////////////////////////////////////*/
-
+.copyright {
+	color: powderblue;
+	font-size: 13px;
+}
 
 .workers {
 	display: flex;
 	justify-content: space-between;
 	max-width: 100%;
-	padding: 10px;
 }
+
+@media(max-width: 426px){
+	.workers{
+		display: flex;
+		flex-direction: column;
+	}
+	.workers_story{
+		margin-bottom: 10px;
+	}
+}
+
+
 
 .about_desc {
 	text-align: center;
@@ -324,11 +357,12 @@ ul{
 .all_worker {
 	font-size: 15px;
 	color: black;
+	padding: 10px;
 }
 
 .workers_story {
 	background-color: #FFF;
-	margin-left: 20px;
+	margin-inline: 10px;
 }
 
 .workers_story img {
