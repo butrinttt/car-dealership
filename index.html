@@ -4,19 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<title></title>
 </head>
 <body>
 
-<img src="img/test.png">
+	<div id="stop">
+		<div id="welcome"></div>
+		<button id="test" onclick="stop()"></button>
+	</div>
+<a href="https://www.bmw.com/en/index.html"><img src="bmwlogo.png" width="75" height="75">
+
 
 <nav>
-	<a href="" class="active"> Home </a>
-	<a href="https://en.wikipedia.org/wiki/Mitsubishi_Group" target="_blank"> About us </a>
-	<a href="https://www.cars.com/shopping/" target="_blank"> Contact us</a>
-	<a href="https://www.cars.com/shopping/" target="_blank"><button id="buycar">BuyCar$</button></a>
+	<a href="#" class="active"> Home </a>
+	<a href="about-us.html"> About us </a>
+	<a href="contactus.html"> Contact us</a>
+	<a href="game.html"><button id="buycar">BuyCar$</button></a>
 </nav>
-
+<br><br>
 	<p>Model Comparison</p>
 
 	<p class="p1">To find the right model for you, first choose the car you're interested in.
@@ -24,40 +30,47 @@ Then select up to three models to review </p>
 
 <br>
 
-
 <!-- car 1  -->
-
 <div class="itemshold" style=" width: 100%; height: 700px;">
-		<div class="gallery grayy">
-			<h1 id="outlander">OUTLANDER</h1>
-			<a target="_blank" href="img/car1.jpg">
-			<img src="img/car1.jpg" alt=" image 1 info" width="350" height="250">
+		<div class="gallery grayy container">
+			<h1 id="bmw7">BMW 760LI</h1>
+			<a target="_blank" href="img/car4.jpg">
+			<img src="img/car4.jpg" alt=" image 4 info" width="350" height="250">
 			</a>
 
 			<div class="desc">
-			<span id="center">Starting at <b>$24,895</b></span>  <br><br><br><br>				    &#9733; 5/7 Seats<br>
-                &#9733;velit esse cillum<br>
-                &#9733;dolore eu fugiat nulla<br>
-                &#9733;non proident<br>
+			<span id="center">Starting at <b>$157,700</b></span><br><br><br><br><br>
+			    &#9733; 6.0L V12 Engine<br>
+                &#9733; 600hp , 850Nm<br>
+                &#9733; 8G Automatic Gearbox<br>
+                &#9733; AWD xDrive<br>
                 <br><a href="https://en.wikipedia.org/wiki/Mitsubishi_Outlander" target="_blank"><button>LEARN MORE</button></a>
 			</div>
+			<div class="overlay">
+    <div class="text">This car is named BMW 7. It has 5 to 7 seats and it's black matte color. </div>
+  </div>
+
 		</div>
 
 <!-- car 2 -->
 
-		<div class="gallery red">
-			<h1 id="eclipse">ECLIPSE CROSS</h1>
-			<a target="_blank" href="img/car2.jpg">
-			<img src="img/car2.jpg" alt=" image 1 info" width="350" height="250">
+		<div class="gallery red container">
+			<h1 id="bmw3">BMW M3 G80</h1>
+			<a target="_blank" href="img/car6.jpg">
+			<img src="img/car6.jpg" alt=" image 6 info" width="350" height="250">
 			</a>
 
 			<div class="desc">
-				<span id="center">Starting at <b>$24,895</b></span>  <br><br><br><br>				     &#9733;5/7 Seats<br>
-               &#9733; velit esse cillum<br>
-                &#9733;dolore eu fugiat nulla<br>
-               &#9733; non proident<br>
+				<span id="center">Starting at <b>$73,895</b></span><br><br><br><br><br>
+			   &#9733;3,0L Engine M xDrive<br>
+               &#9733; 510hp , 650Nm<br>
+               &#9733; M Steptronic 7G<br>
+               &#9733; 0-100km/h 3.5s<br>
                 <br><a href="https://en.wikipedia.org/wiki/Mitsubishi_Eclipse" target="_blank"><button>LEARN MORE</button></a>
 			</div>
+			<div class="overlay">
+    <div class="text">This car is named BMW M3G80. This is like a sportive car and it's known for speed and it's very comfortable</div>
+  </div>
 		</div>
 
 
@@ -67,42 +80,67 @@ Then select up to three models to review </p>
 <!-- car 3  -->
 
 	
-		<div class="gallery gray">
-			<h1 id="shogun">SHOGUN SPORT</h1>
-			<a target="_blank" href="img/car3.jpg">
-			<img src="img/car3.jpg" alt=" image 1 info" width="350" height="250">
+	<div class="gallery gray container">
+			<h1 id="bmw5">BMW M5 E60 </h1>
+			<a target="_blank" href="img/car5.jpg">
+			<img src="img/car5.jpg" alt=" image 5 info" width="350" height="250">
 			</a>
 
 			<div class="desc">
-				<span id="center">Starting at <b>$24,895</b></span>  <br><br><br><br>				    
-               
-                       &#9733; 5/7 Seats<br>
-                &#9733;velit esse cillum<br>
-                &#9733;dolore eu fugiat nulla<br>
-                &#9733;non proident<br>
+				<span id="center">Starting at <b>$28,895</b></span><br><br><br><br><br>
+                &#9733; 5.0 V10 Engine<br>
+                &#9733; 507Hp 520Nm<br>
+                &#9733; 7G SMG Gearbox<br>
+                &#9733; 0-60 Mph 4.3s<br>
                 <br><a href="https://en.wikipedia.org/wiki/Mitsubishi_Pajero" target="_blank"><button>LEARN MORE</button></a>
 			</div>
+			<div class="overlay">
+    <div class="text">This car is named BMW M5E60. it's an old version of BMW7 but it's slower and not comfortable like BMW7</div>
+  </div>
 		</div>
+		
 	</div>
 
 	
 
 
-	<footer>
-		<nav>
-			<a href="https://www.cars.com/shopping/" target="_blank">Contact us</a>
-			<a href="https://en.wikipedia.org/wiki/Mitsubishi_Group" target="_blank">About us</a>
-			<a href="">Email</a>
-			<a href="">Others</a>
-		</nav>
-	</footer>
+  <footer class="footer">
+  	 <!-- <div class="container1"> -->
+  	 	<!-- <div class="row"> -->
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">About US</a></li>
+  	 				<li><a href="#">Our services</a></li>
+  	 				<li><a href="#">Privacy policy</a></li>
+  	 				<li><a href="#">Affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">Shipping</a></li>
+  	 				<li><a href="#">Returns</a></li>
+  	 				<li><a href="#">Order status</a></li>
+  	 				<li><a href="#">Payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/BMW/"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/BMW?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/bmw/?hl=en"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/bmw-group/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 
 
-    
 
-
-
-
-
+<script src="JS/main.js"></script>
 </body>
 </html>
