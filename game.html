@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-	<title></title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/styles.css" />
+        <script src="assets/game.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <title></title>
+    </head>
 <body>
-<a href="https://www.bmw.com/en/index.html"><img src="bmwlogo.png" width="75" height="75">
+<a href="https://www.bmw.com/en/index.html"><img src="bmwlogo.png" width="75" height="75"></a>
 
-    <nav>
-        <a href="#" class="active"> Home </a>
-        <a href="about-us.html"> About us </a>
-        <a href="contactus.html"> Contact us</a>
-        <a href="game.html"><button id="buycar">BuyCar$</button></a>
-    </nav>
-
-    
-      
+  <h2 class="homeFromGame"> 
+      <a href="index.html" class="actives">Home </a>
+    </h3>   
+    <body>
+        <div class="game">
+            <div class="controls">
+                <button>Start</button>
+                <div class="stats">
+                    <div class="moves">0 moves</div>
+                    <div class="timer">time: 0 sec</div>
+                </div>
+            </div>
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">You won!</div>
+            </div>
         </div>
-      </div>
-
-
-
-      <div class="wrapper">
-        <h2>JavaScript pairs Game</h1>
-        <h3>Click any card to begin</h3>
-        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-        <p id ="teksti"></p>
-        <div id="kontinjeri">
-          </div>
-          </div>
-
-
-</body>
+    </body>
 </html>
