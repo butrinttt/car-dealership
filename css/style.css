@@ -115,6 +115,9 @@ button {
 	margin-left: 85px;
 
 }
+button#buycar{
+	cursor: pointer;
+}
 
 nav {
 	display: flex;
