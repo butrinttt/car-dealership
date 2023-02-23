@@ -488,5 +488,72 @@ input {
 }
 
 
-/* ////////////////////////////////////////////////*/
+/*/* clock*/
 
+/*.clock{
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;    
+    top: 50%;
+    right: 0px;
+    transform: translate(50%, -50%);
+    font-size: 25px;
+    white-space: nowrap;
+
+}*/
+
+@font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+}
+.clockdate-wrapper{
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    right: 210px;
+
+  
+}
+#clock{
+    font-family: Digital-7, 'sans-serif';
+    font-size:50px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+    left: 320px;
+    bottom: 55px;
+    position: relative;
+}
+#clock span {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow:0px 0px 1px #333;
+    font-size:20px;
+    position:relative;
+    bottom: 30px;
+    left:5px;
+  
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+    position: relative;
+    left: 320px;
+    bottom: 70px;
+}
+
+#CH{
+	color: whitesmoke;
+	position: relative;
+	bottom: 70px;
+	left: 320px;
+	font-size: 20px;
+	font-family: Orbitron', sans-serif';
+    text-transform: uppercase;
+}
