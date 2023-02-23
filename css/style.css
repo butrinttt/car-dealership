@@ -1,6 +1,8 @@
 body {
 background-color: #292D33;
 padding: 25px;
+margin-left: 200px;
+margin-right: 140px;
 }
 
 p {
@@ -152,6 +154,8 @@ footer nav a {
 	margin-right: 35px;
 	font-size: 23px;
 }
+
+
 
 
 .container {
